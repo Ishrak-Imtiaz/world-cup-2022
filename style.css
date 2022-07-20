@@ -330,6 +330,13 @@ mobile
     .social-icon {
         margin: 50px 40%;
     }
+
+    .linked-blog2 {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+
 }
 
 /* ------------------
@@ -407,16 +414,20 @@ tablet/medium devices
     }
 
     .menu {
+        flex-wrap: wrap;
         text-align: center;
+        justify-content: center;
         padding-left: 0;
+        margin: 20px 10%;
 
     }
+
+    .menu li {
+        margin: 10px;
+    }
+
+    .linked-blog2 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
 }
-
-/* -------------
- laptop view
---------------- */
-/* @media screen and (min-width:576px) and (max-width:882px) {
-
-    
-} */
