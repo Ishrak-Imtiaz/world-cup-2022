@@ -3,6 +3,15 @@ body {
     margin: 0;
 }
 
+.intro-img {
+    transition: transform 0.8s;
+}
+
+.intro:hover .intro-img {
+    transform: scale(1.1) rotate(5deg);
+
+}
+
 .intro {
     display: flex;
     margin: 50px 100px;
