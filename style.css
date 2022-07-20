@@ -156,6 +156,11 @@ body {
 
 }
 
+.articles button,
+p {
+    margin-left: 10px;
+}
+
 
 .blog2 {
     width: calc(100%-500px);
@@ -336,6 +341,12 @@ mobile
         gap: 20px;
     }
 
+    .intro-para {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
 
 }
 
@@ -386,6 +397,22 @@ tablet/medium devices
         margin-left: 0;
         margin-right: 0;
         margin: 20px 25%;
+        display: flex;
+        width: 100%;
+        background: none;
+        margin: 20px 0px;
+        justify-content: center;
+    }
+
+    .blog-item1,
+    .blog-item2,
+    .blog-item3 {
+        border: 1px solid black;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        width: 25%;
+
+
     }
 
     .blog2 {
@@ -430,4 +457,11 @@ tablet/medium devices
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
+
+    .intro-para {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
 }
